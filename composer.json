@@ -1,0 +1,31 @@
+{
+    "name": "rajib/laravel-slug-generator",
+    "description": "a unique slug generator",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Rajib\\LaravelSlugGenerator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rajib",
+            "email": "rajibbinalam@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rajib\\LaravelSlugGenerator\\SlugGeneratorServiceProvider"
+            ],
+            "aliases": {
+                "SlugGenerator": "Rajib\\LaravelSlugGenerator\\SlugGenerator"
+            }
+        }
+    }
+}
