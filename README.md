@@ -1,7 +1,7 @@
 # laravel-unique-slug-generator
 
 ```sh
-composer require rajib/laravel-slug-generator
+composer require rajibbinalam/laravel-slug-generator
 ```
 ### Generating a unique slug
 ```php
