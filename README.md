@@ -10,6 +10,11 @@ use Rajib\LaravelSlugGenerator\Facades\SlugGenerator;
 //SlugGenerator::generate($model, '$title', '$db_field_name');
 SlugGenerator::generate(User::class, 'Hello World', 'slug');
 ```
+
+### Publish Vendor:
+```sh
+php artisan publish:vendor
+```
  
 ### Separating a slug with '-'. Default Separated with '-'. It's changable. In config/SlugGenerator
 ```php
