@@ -1,7 +1,6 @@
 {
     "name": "rajibbinalam/laravel-slug-generator",
     "description": "a unique slug generator",
-    "type": "composer-plugin",
     "license": "MIT",
     "autoload": {
         "psr-4": {
