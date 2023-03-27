@@ -7,11 +7,11 @@ composer require rajibbinalam/laravel-slug-generator
 
 ```php
 "providers": [
-    "Rajib\\LaravelSlugGenerator\\SlugGeneratorServiceProvider"
+    Rajib\LaravelSlugGenerator\SlugGeneratorServiceProvider::class,
 ],
 
 "aliases": {
-    "SlugGenerator": "Rajib\\LaravelSlugGenerator\\SlugGenerator"
+    'SlugGenerator' => Rajib\LaravelSlugGenerator\Facades\SlugGenerator::class,
 }
 ```
 ### Publish Vendor:
