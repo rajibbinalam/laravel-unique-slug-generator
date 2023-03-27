@@ -13,6 +13,7 @@
             "email": "rajibbinalam@gmail.com"
         }
     ],
+    "keywords": ["laravel-unique-slug-generator","slug","unique-slug-generator","slug-generator","unique-slug"],
     "minimum-stability": "dev",
     "require": {
         "php": ">=7.4"
